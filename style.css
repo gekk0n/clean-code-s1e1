@@ -17,16 +17,19 @@ ul {
   display: block;
   text-align: right;
 }
-.header img {
+.header__image {
   width: 100%;
 }
-.header .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+
+  .header { 
+    text-align: center;
   }
+
 }
 .main {
   display: block;
@@ -82,9 +85,6 @@ ul {
 #new-task{
   display: block;
 }
-.button .add{
-  background-color: red;
-}
 
 /* New Task */
 
@@ -93,7 +93,7 @@ ul {
 }
 
 /* Task list */
-.list-item {
+.task-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
