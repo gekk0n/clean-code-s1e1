@@ -1,9 +1,13 @@
-/* Basic Style */
+/* Reset Style */
 ul {
   margin: 0;
   padding: 0px;
   list-style-type: none;
 }
+h1 {
+  display: none;
+}
+/* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -55,7 +59,7 @@ ul {
   color: #3a3A3a;
 }
 /* Heading */
-.block-header {
+.section__header {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -70,8 +74,8 @@ ul {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -98,9 +102,6 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-/* li > * {
-  vertical-align: middle;
-} */
 
 .checkbox {
   margin: 0 10px;
@@ -133,7 +134,7 @@ ul {
 }
 
 .edit-mode .text-input {
-  display:inline-block;
+  display: inline-block;
   width: 224px;
 }
 
